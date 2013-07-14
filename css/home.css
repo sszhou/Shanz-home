@@ -1,0 +1,111 @@
+#container
+{
+	max-width:600px;
+	margin:auto;	
+	//background-color:#BBBBBB;
+	top:100px;
+}	
+header
+{
+	overflow:hidden;
+}
+header #banner
+{
+	position:absolute;
+	width:100%;
+	max-width:600px;
+	//background-color:red;
+	z-index: 10;	
+}
+
+header #banner > h1
+{
+	float:right;
+	font-size:3em;
+	font-style:italic;
+	background-color:white;
+}
+header #banner > div
+{
+	float:left;
+	font-size:1.1em;
+	max-width:450px;
+	width:50%;
+	background-color:white;
+	padding:5px;
+}
+header #fox
+{
+	margin-top:-200px;
+	width:600px;
+	z-index: -1;	
+	overflow:hidden;
+	user-drag: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+header #fox #eyeC
+{
+	opacity:0.3;
+	top:230px;
+	position: relative;
+	
+}
+header #fox #eyeO
+{	
+	opacity:0;
+	top:250px;
+	position:relative;
+}
+header #fox #fbody
+{	
+	margin-top:-50px;	
+	//z-index: -10;
+}
+#main
+{	
+	float:none;
+	display: block;
+	//background-color:#999999;
+	//min-height:3em;
+	max-width:450px;
+	margin:50px auto 0px;
+	//bottom:0px;
+	text-align:center;
+}
+#main > div
+{
+	float:left;
+	width:150px;	
+	margin:auto;
+}
+
+#main > div > h2
+{		
+	text-align:center;
+	//background-color:red;
+}
+
+#main a, #main a:visited
+{
+	color: #353535;
+}
+#main > div > h2:hover
+{
+	text-decoration:overline;
+}
+footer
+{
+	float:none;
+	display: block;
+	//background-color:#808080;
+	margin-left:10px;
+}
+footer h2
+{
+	font-size:1.2em;
+}
+footer a{
+	float:none;
+	display:block;
+}

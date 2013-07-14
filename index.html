@@ -1,0 +1,117 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>MountZzzz</title>
+  <meta name="description" content="Shanshan's website">
+  <meta name="author" content="Shanshan Zhou">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+   <header>   	
+   		<div id="fox">
+			<img id="eyeC" src = "img/eyes_closed.png"/>
+			<img id="eyeO" src = "img//eyes_open.png"/>
+			<img id="fbody" src = "img/fox1.gif"/>
+		</div>
+   		<div id = "banner">
+			<h1>Shanshan<br/>Zhou</h1>
+			<div id="dicription">
+				I'm a media artist and interaction designer, based in Wellington, New Zealand. I'm interested in bringing art to life and making technology more human. 
+				</div>
+		</div>
+    </header>
+    <div id="main">
+    	<div>
+    		<h2 id="work"><a href="http://be.net/sszhou">Works</a></h2>
+    	</div>
+    	<div>
+    		<h2 id="play">Play & <br/> Experiments</h2>	
+    	</div>
+    	<div>
+    		<h2 id="doc">Journal</h2>	
+    	</div>
+    </div>
+    <footer>
+    	<div>
+    		<h2>Contact</h2>
+    		<a href="mailto:sszhou@live.cn?subject=feedback">sszhou@live.cn</a>
+    	</div>
+    	<div>
+    		<h2>More about me</h2>    		 
+    		<a href = "http://be.net/sszhou">Behance</a>
+    		<a href = "http://nz.linkedin.com/pub/shanshan-zhou/52/483/549/">LinkedIn</a>
+    		<a href="http://sszh.tumblr.com/">sszh.tumblr.com</a> 
+    		<a href="http://pinterest.com/sszhou/boards/">Pinterst</a>
+    		<a href="files/CV_zhou_shanshan2013.pdf">CV</a>  		
+    	</div>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <script src="js/fox/eyes.js"></script>
+  <script src="js/mylibs/windowRerizer.js"></script>
+  <script src="js/mylibs/textSwapper.js"></script>
+
+  <!-- end scripts-->
+
+	
+  <!-- Change UA-XXXXX-X to be your site's ID 
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
